@@ -1,6 +1,6 @@
 class I386JosQemu < Formula
   homepage "http://pdos.csail.mit.edu/6.828/2018/tools.html"
-  url "https://github.com/k0Iry/6.828-qemu/archive/2.3.0.tar.gz"
+  url "https://github.com/k0Iry/6.828-qemu/archive/qemu-2.3.0.tar.gz"
   sha256 "988f8df2cfddb806008a23604aea643885c10af515b43557cfc75f5911d80942"
 
   def install
