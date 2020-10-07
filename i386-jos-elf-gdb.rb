@@ -11,11 +11,6 @@ class I386JosElfGdb < Formula
                           "--disable-werror"
     system "make", "all"
     system "make", "install"
-    # avoid conflict with binutil
-    if Formula["i386-jos-elf-binutils"].any_version_installed?
-      rm_r share/"info"
-      rm_r lib
-    end
   end
 
   test do
