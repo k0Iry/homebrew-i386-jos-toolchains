@@ -1,5 +1,5 @@
 class I386JosElfGcc < Formula
-  homepage "http://pdos.csail.mit.edu/6.828/2014/tools.html"
+  homepage "http://pdos.csail.mit.edu/6.828/2018/tools.html"
   url "https://gnuftp.uib.no/gcc/gcc-8.3.0/gcc-8.3.0.tar.xz"
   sha256 "64baadfe6cc0f4947a84cb12d7f0dfaf45bb58b7e92461639596c21e02d97d2c"
 
