@@ -12,8 +12,4 @@ class I386JosElfGdb < Formula
     system "make"
     system "make", "install"
   end
-
-  test do
-    system "#{bin}/i386-jos-elf-gdb -v"
-  end
 end
